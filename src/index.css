@@ -147,7 +147,7 @@ body {
 @media (max-width: 768px) {
   .navbar {
     width: fit-content;
-    max-width: 95%;
+    /* max-width: 95%; */
     padding: 12px 16px;
     justify-content: space-between;
     overflow: hidden;
