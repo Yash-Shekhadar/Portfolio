@@ -144,6 +144,38 @@ body {
   box-shadow: 0 0 20px var(--accent-soft);
 }
 
+@media (max-width: 768px) {
+  .navbar {
+    width: fit-content;
+    padding: 12px 16px;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .nav-links {
+    gap: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .nav-links::-webkit-scrollbar {
+    display: none; /* Chrome */
+  }
+
+  .nav-links li {
+    flex: 0 0 auto;
+  }
+
+  .nav-actions {
+    gap: 10px;
+  }
+
+  /* .cv-btn {
+    display: none; /* optional
+  } */
+}
+
 /* ===========================
    HERO
 =========================== */
