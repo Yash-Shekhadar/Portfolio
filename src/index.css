@@ -147,16 +147,20 @@ body {
 @media (max-width: 768px) {
   .navbar {
     width: fit-content;
+    max-width: 95%;
     padding: 12px 16px;
     justify-content: space-between;
     overflow: hidden;
   }
 
   .nav-links {
+    display: flex;
     gap: 20px;
     overflow-x: auto;
+    max-width: 100%;
     white-space: nowrap;
     scrollbar-width: none; /* Firefox */
+    justify-content: center;
   }
 
   .nav-links::-webkit-scrollbar {
